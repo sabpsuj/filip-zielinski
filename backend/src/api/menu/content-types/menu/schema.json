@@ -4,7 +4,8 @@
   "info": {
     "singularName": "menu",
     "pluralName": "menus",
-    "displayName": "Menu"
+    "displayName": "Menu",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,19 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "MenuItem": {
       "displayName": "Menu Item",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "menu-item.menu-item"
     }
   }
