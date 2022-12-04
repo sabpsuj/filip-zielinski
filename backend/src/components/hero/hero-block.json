@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_hero_hero_blocks",
+  "info": {
+    "displayName": "Hero Block"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "MainCTA": {
+      "type": "string"
+    },
+    "SecondCTA": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}

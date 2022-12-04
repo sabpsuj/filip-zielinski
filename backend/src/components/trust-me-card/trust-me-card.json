@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_trust_me_card_trust_me_cards",
+  "info": {
+    "displayName": "TrustMeCard",
+    "icon": "coffee"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

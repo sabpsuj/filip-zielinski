@@ -8,7 +8,7 @@ const defaultOptions = {
   }
 }
 
-const fetchData = async ({ options = defaultOptions, data }) => {
+const fetchData = async({ options = defaultOptions, data }) => {
   try {
     const rspData = await axios.request({ ...options, data }).then((response) => {
       return response.data

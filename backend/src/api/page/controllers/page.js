@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hero-block controller
+ * page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::hero-block.hero-block');
+module.exports = createCoreController('api::page.page');

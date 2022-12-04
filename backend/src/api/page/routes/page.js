@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hero-block router
+ * page router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::hero-block.hero-block');
+module.exports = createCoreRouter('api::page.page');

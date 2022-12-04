@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_trust_me_trust_me_blocks",
+  "info": {
+    "displayName": "Trust Me Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "TrustMeCard": {
+      "displayName": "TrustMeCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "trust-me-card.trust-me-card",
+      "max": 4
+    }
+  }
+}

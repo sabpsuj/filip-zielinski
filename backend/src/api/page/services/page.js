@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hero-block service
+ * page service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::hero-block.hero-block');
+module.exports = createCoreService('api::page.page');
